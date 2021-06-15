@@ -11,7 +11,7 @@ export default function HTML(props) {
           name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no"
         />
-          {/* <script src="http://localhost:8003/main.js" /> */}
+          <script src="http://localhost:8003/remoteEntry.js" />
         {props.headComponents}
       </head>
       <body {...props.bodyAttributes}>

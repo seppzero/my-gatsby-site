@@ -1,5 +1,5 @@
-import React, { Suspense, useEffect, useState } from "react";
-//import loadable from "@loadable/component";
+import React, { Suspense } from "react";
+import loadable from "@loadable/component";
 // import { Helmet } from "react-helmet";
 
 import Search from "../../app3/src/Search";
@@ -16,11 +16,13 @@ const pageStyles = {
 
 const SearchLazy = React.lazy(() => import("app_three/Search"));
 
-const script = document.createElement("script");
-script.src = "http://localhost:8003/main.js";
-script.async = true;
-document.body.appendChild(script);
+// const script = document.createElement("script");
+// script.src = "http://localhost:8003/main.js";
+// script.async = true;
+// document.body.appendChild(script);
 
+
+const OtherComponent = loadable(() => import('app_three/Search'))
 /*
 const Test = () => {
     const [isLoaded, setIsLoaded] = useState(false);
@@ -58,7 +60,7 @@ const Fallback = () => {
 */
 
 const IndexPage = () => {
-  const isSSR = typeof window === "undefined";
+  // const isSSR = typeof window === "undefined";
 
 
   return (
@@ -76,11 +78,12 @@ const IndexPage = () => {
       <br />
       <br />
       <br />
+      <OtherComponent fallback={<Search />} />
 
-      ---------=replaced by mf remoteEntry.js =----------
+      {/* ---------=replaced by mf remoteEntry.js =----------
       <Suspense fallback={<Search />}>
         <SearchLazy />
-      </Suspense>
+      </Suspense> */}
     </main>
   );
 };

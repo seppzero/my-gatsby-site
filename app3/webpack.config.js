@@ -39,6 +39,10 @@ module.exports = {
     plugins: [
         new ModuleFederationPlugin({
             name: 'app_three',
+            remoteType: 'var',
+            remotes: {
+                app_three: 'app_three',
+            },
             library: { type: 'var', name: 'app_three' },
             filename: 'remoteEntry.js',
             exposes: {
