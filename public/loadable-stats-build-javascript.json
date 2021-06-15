@@ -1,0 +1,193 @@
+{
+  "hash": "d43de280f6edb4a172e2",
+  "publicPath": "/",
+  "outputPath": "/Users/suebele/htdocs/my-gatsby-site",
+  "assetsByChunkName": {
+    "polyfill": [
+      "polyfill.js",
+      "polyfill.a96c8495b146a36063bd.hot-update.js"
+    ],
+    "commons": [
+      "commons.css",
+      "commons.js",
+      "commons.a96c8495b146a36063bd.hot-update.js"
+    ],
+    "component---cache-dev-404-page-js": [
+      "component---cache-dev-404-page-js.js"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js.js"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js.js",
+      "component---src-pages-index-js.a96c8495b146a36063bd.hot-update.js"
+    ],
+    "framework": [
+      "framework.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "assets by status",
+      "cached": true,
+      "filteredChildren": 13,
+      "size": 5895011
+    }
+  ],
+  "namedChunkGroups": {
+    "polyfill": {
+      "name": "polyfill",
+      "chunks": [
+        "polyfill"
+      ],
+      "assets": [
+        {
+          "name": "polyfill.js"
+        },
+        {
+          "name": "polyfill.a96c8495b146a36063bd.hot-update.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "commons": {
+      "name": "commons",
+      "chunks": [
+        "framework",
+        "commons"
+      ],
+      "assets": [
+        {
+          "name": "framework.js"
+        },
+        {
+          "name": "commons.css"
+        },
+        {
+          "name": "commons.js"
+        },
+        {
+          "name": "commons.a96c8495b146a36063bd.hot-update.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---cache-dev-404-page-js": {
+      "name": "component---cache-dev-404-page-js",
+      "chunks": [
+        "component---cache-dev-404-page-js"
+      ],
+      "assets": [
+        {
+          "name": "component---cache-dev-404-page-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "name": "component---src-pages-404-js",
+      "chunks": [
+        "component---src-pages-404-js"
+      ],
+      "assets": [
+        {
+          "name": "component---src-pages-404-js.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "name": "component---src-pages-index-js",
+      "chunks": [
+        "component---src-pages-index-js"
+      ],
+      "assets": [
+        {
+          "name": "component---src-pages-index-js.js"
+        },
+        {
+          "name": "component---src-pages-index-js.a96c8495b146a36063bd.hot-update.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "polyfill",
+      "files": [
+        "polyfill.js",
+        "polyfill.a96c8495b146a36063bd.hot-update.js"
+      ]
+    },
+    {
+      "id": "commons",
+      "files": [
+        "commons.css",
+        "commons.js",
+        "commons.a96c8495b146a36063bd.hot-update.js"
+      ]
+    },
+    {
+      "id": "_cache_dummy_js",
+      "files": [
+        "_cache_dummy_js.js"
+      ]
+    },
+    {
+      "id": "component---cache-dev-404-page-js",
+      "files": [
+        "component---cache-dev-404-page-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-404-js",
+      "files": [
+        "component---src-pages-404-js.js"
+      ]
+    },
+    {
+      "id": "component---src-pages-index-js",
+      "files": [
+        "component---src-pages-index-js.js",
+        "component---src-pages-index-js.a96c8495b146a36063bd.hot-update.js"
+      ]
+    },
+    {
+      "id": "webpack_container_remote_app_three_Search",
+      "files": []
+    },
+    {
+      "id": "framework",
+      "files": [
+        "framework.js"
+      ]
+    }
+  ]
+}

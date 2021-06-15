@@ -1,0 +1,46 @@
+{
+  "hash": "13160aa3bf57d91109f2",
+  "publicPath": "/",
+  "outputPath": "/Users/suebele/htdocs/my-gatsby-site/public",
+  "assetsByChunkName": {
+    "main": [
+      "render-page.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "assets by status",
+      "cached": true,
+      "filteredChildren": 1,
+      "size": 344340
+    }
+  ],
+  "namedChunkGroups": {
+    "main": {
+      "name": "main",
+      "chunks": [
+        "main"
+      ],
+      "assets": [
+        {
+          "name": "render-page.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "main",
+      "files": [
+        "render-page.js"
+      ]
+    }
+  ]
+}

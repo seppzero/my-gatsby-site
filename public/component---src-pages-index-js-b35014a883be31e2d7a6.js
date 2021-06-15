@@ -1,0 +1,2 @@
+(self.__LOADABLE_LOADED_CHUNKS__=self.__LOADABLE_LOADED_CHUNKS__||[]).push([[678],{7704:function(e,t,n){"use strict";n.r(t);var s=n(7294),_=n(6393),l=n.n(_),r={color:"#232129",padding:96,fontFamily:"-apple-system, Roboto, sans-serif, serif"};t.default=function(){return s.createElement("main",{style:r},"test",s.createElement(l(),null))}}}]);
+//# sourceMappingURL=component---src-pages-index-js-b35014a883be31e2d7a6.js.map
