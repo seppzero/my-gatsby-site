@@ -1,4 +1,4 @@
-(self["webpackChunkapp3"] = self["webpackChunkapp3"] || []).push([[496],{
+(self["__LOADABLE_LOADED_CHUNKS__"] = self["__LOADABLE_LOADED_CHUNKS__"] || []).push([[496],{
 
 /***/ 496:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
@@ -13,12 +13,11 @@ var react = __webpack_require__(294);
 
 
 const Search = () => {
-  const [searchTerm, setSearchTerm] = (0,react.useState)('');
   return /*#__PURE__*/react.createElement("div", {
     style: {
       display: 'flex'
     }
-  }, "search: ", /*#__PURE__*/react.createElement("input", null), searchTerm);
+  }, "asdasdasda search: ", /*#__PURE__*/react.createElement("input", null));
 };
 
 /* harmony default export */ const src_Search = (Search);
@@ -27,7 +26,7 @@ const Search = () => {
 
 
 function App() {
-  return /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("h1", null, "App SearchEngine"), /*#__PURE__*/react.createElement(src_Search, null));
+  return /*#__PURE__*/react.createElement("div", null, /*#__PURE__*/react.createElement("h1", null, "App SearchEngine 123"), /*#__PURE__*/react.createElement(src_Search, null));
 }
 
 /* harmony default export */ const src_App = (App);

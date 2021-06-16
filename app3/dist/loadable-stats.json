@@ -1,0 +1,96 @@
+{
+  "hash": "41bb0ecf18805290edda",
+  "publicPath": "http://localhost:8003/",
+  "outputPath": "/Users/suebele/htdocs/my-gatsby-site/app3/dist",
+  "assetsByChunkName": {
+    "remote": [
+      "remote.js"
+    ],
+    "app_three": [
+      "remoteEntry.js"
+    ]
+  },
+  "assets": [
+    {
+      "type": "assets by status",
+      "cached": true,
+      "filteredChildren": 7,
+      "size": 1034730
+    }
+  ],
+  "namedChunkGroups": {
+    "remote": {
+      "name": "remote",
+      "chunks": [
+        "remote"
+      ],
+      "assets": [
+        {
+          "name": "remote.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "app_three": {
+      "name": "app_three",
+      "chunks": [
+        "app_three"
+      ],
+      "assets": [
+        {
+          "name": "remoteEntry.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "generator": "loadable-components",
+  "chunks": [
+    {
+      "id": "remote",
+      "files": [
+        "remote.js"
+      ]
+    },
+    {
+      "id": "app_three",
+      "files": [
+        "remoteEntry.js"
+      ]
+    },
+    {
+      "id": "src_bootstrap_tsx",
+      "files": [
+        "src_bootstrap_tsx.js"
+      ]
+    },
+    {
+      "id": "src_Search_tsx",
+      "files": [
+        "src_Search_tsx.js"
+      ]
+    },
+    {
+      "id": "vendors-node_modules_react_index_js",
+      "files": [
+        "vendors-node_modules_react_index_js.js"
+      ]
+    },
+    {
+      "id": "vendors-node_modules_react-dom_index_js",
+      "files": [
+        "vendors-node_modules_react-dom_index_js.js"
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-(self["webpackChunkapp3"] = self["webpackChunkapp3"] || []).push([["src_bootstrap_tsx"],{
+(self["__LOADABLE_LOADED_CHUNKS__"] = self["__LOADABLE_LOADED_CHUNKS__"] || []).push([["src_bootstrap_tsx"],{
 
 /***/ "./src/App.tsx":
 /*!*********************!*\
@@ -39,11 +39,19 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const Search = () => {
+  const [searchTerm, setSearchTerm] = (0,react__WEBPACK_IMPORTED_MODULE_0__.useState)('');
+
+  const handleChange = e => {
+    console.log("e.target.value", e.target.value);
+  };
+
   return /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("div", {
     style: {
       display: 'flex'
     }
-  }, "search: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", null));
+  }, "asdasdasda search: ", /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", {
+    onChange: handleChange
+  }));
 };
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Search);
