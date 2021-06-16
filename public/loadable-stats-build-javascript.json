@@ -1,16 +1,14 @@
 {
-  "hash": "d43de280f6edb4a172e2",
+  "hash": "149c47d3df579a3745b1",
   "publicPath": "/",
   "outputPath": "/Users/suebele/htdocs/my-gatsby-site",
   "assetsByChunkName": {
     "polyfill": [
-      "polyfill.js",
-      "polyfill.a96c8495b146a36063bd.hot-update.js"
+      "polyfill.js"
     ],
     "commons": [
       "commons.css",
-      "commons.js",
-      "commons.a96c8495b146a36063bd.hot-update.js"
+      "commons.js"
     ],
     "component---cache-dev-404-page-js": [
       "component---cache-dev-404-page-js.js"
@@ -19,8 +17,7 @@
       "component---src-pages-404-js.js"
     ],
     "component---src-pages-index-js": [
-      "component---src-pages-index-js.js",
-      "component---src-pages-index-js.a96c8495b146a36063bd.hot-update.js"
+      "component---src-pages-index-js.js"
     ],
     "framework": [
       "framework.js"
@@ -30,8 +27,8 @@
     {
       "type": "assets by status",
       "cached": true,
-      "filteredChildren": 13,
-      "size": 5895011
+      "filteredChildren": 8,
+      "size": 5887327
     }
   ],
   "namedChunkGroups": {
@@ -43,9 +40,6 @@
       "assets": [
         {
           "name": "polyfill.js"
-        },
-        {
-          "name": "polyfill.a96c8495b146a36063bd.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -70,9 +64,6 @@
         },
         {
           "name": "commons.js"
-        },
-        {
-          "name": "commons.a96c8495b146a36063bd.hot-update.js"
         }
       ],
       "filteredAssets": 0,
@@ -124,13 +115,23 @@
       "assets": [
         {
           "name": "component---src-pages-index-js.js"
-        },
-        {
-          "name": "component---src-pages-index-js.a96c8495b146a36063bd.hot-update.js"
         }
       ],
       "filteredAssets": 0,
       "assetsSize": null,
+      "filteredAuxiliaryAssets": 0,
+      "auxiliaryAssetsSize": 0,
+      "children": {},
+      "childAssets": {}
+    },
+    "app_three": {
+      "name": "app_three",
+      "chunks": [
+        "app_three"
+      ],
+      "assets": [],
+      "filteredAssets": 0,
+      "assetsSize": 0,
       "filteredAuxiliaryAssets": 0,
       "auxiliaryAssetsSize": 0,
       "children": {},
@@ -142,16 +143,14 @@
     {
       "id": "polyfill",
       "files": [
-        "polyfill.js",
-        "polyfill.a96c8495b146a36063bd.hot-update.js"
+        "polyfill.js"
       ]
     },
     {
       "id": "commons",
       "files": [
         "commons.css",
-        "commons.js",
-        "commons.a96c8495b146a36063bd.hot-update.js"
+        "commons.js"
       ]
     },
     {
@@ -175,12 +174,11 @@
     {
       "id": "component---src-pages-index-js",
       "files": [
-        "component---src-pages-index-js.js",
-        "component---src-pages-index-js.a96c8495b146a36063bd.hot-update.js"
+        "component---src-pages-index-js.js"
       ]
     },
     {
-      "id": "webpack_container_remote_app_three_Search",
+      "id": "app_three",
       "files": []
     },
     {
