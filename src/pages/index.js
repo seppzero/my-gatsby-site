@@ -1,11 +1,6 @@
-import React, { Suspense, useEffect, useState } from "react";
-//import loadable from "@loadable/component";
-// import { Helmet } from "react-helmet";
+import React, { lazy, Suspense, useEffect, useState } from "react";
 
 import Search from "../../app3/src/Search";
-
-// doesnt work on build
-// import Search from 'app_three/Search';
 
 // styles
 const pageStyles = {
@@ -16,71 +11,17 @@ const pageStyles = {
 
 const SearchLazy = React.lazy(() => import("app_three/Search"));
 
-const script = document.createElement("script");
-script.src = "http://localhost:8003/main.js";
-script.async = true;
-document.body.appendChild(script);
-
-/*
-const Test = () => {
-    const [isLoaded, setIsLoaded] = useState(false);
-
-    // const MyLazyComponent = React.lazy(async () => {
-    //     let mod;
-    //     while(!mod){ 
-    //         try{
-    //             mod = await import('app_three/Search');
-    //         }
-    //         catch(err){}   
-    //     }
-    //     return mod 
-    // });
-
-    useEffect(() => {
-        setTimeout(() => {
-            setIsLoaded(true);
-        }, 1000)
-    }, []);
-
-    return isLoaded && 'nothing';
-}
-
-const Fallback = () => {
-    const [searchTerm, setSearchTerm] = useState('');
-    const handleChange = (e) => {
-        console.log("e.target.value", e.target.value)
-
-    }
-    return (
-            <input onChange={handleChange} />
-    )
-}
-*/
-
 const IndexPage = () => {
   const isSSR = typeof window === "undefined";
 
-
   return (
     <main style={pageStyles}>
-      prerenderd
-      <br />
-
-
-      ---------= replaced by mf main.js =----------
-      <div id="root">
-        <Search />
-      </div>
-
-      <br />
-      <br />
-      <br />
-      <br />
-
-      ---------=replaced by mf remoteEntry.js =----------
-      <Suspense fallback={<Search />}>
-        <SearchLazy />
-      </Suspense>
+      prerenderd ---------=replaced by mf remoteEntry.js =----------
+      {!isSSR && (
+        <Suspense fallback={<Search />}>
+          <SearchLazy />
+        </Suspense>
+      )}
     </main>
   );
 };

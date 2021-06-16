@@ -1,29 +1,107 @@
 {
-  "hash": "13160aa3bf57d91109f2",
+  "hash": "d28db0cfa0c3cb9eb109",
   "publicPath": "/",
   "outputPath": "/Users/suebele/htdocs/my-gatsby-site/public",
   "assetsByChunkName": {
-    "main": [
-      "render-page.js"
+    "polyfill": [
+      "polyfill-a2d25affeded1b147d38.js"
+    ],
+    "app": [
+      "app-3b5d64503ecce0185adc.js"
+    ],
+    "webpack-runtime": [
+      "webpack-runtime-b36f33500c005cae6768.js"
+    ],
+    "component---src-pages-404-js": [
+      "component---src-pages-404-js-4790579db421e82c33cd.js"
+    ],
+    "component---src-pages-index-js": [
+      "component---src-pages-index-js-577ac56344f9cfd98a1e.js"
+    ],
+    "framework": [
+      "framework-0068a62ee68a6c63e163.js"
     ]
   },
   "assets": [
     {
       "type": "assets by status",
       "cached": true,
-      "filteredChildren": 1,
-      "size": 344340
+      "filteredChildren": 6,
+      "size": 279474
     }
   ],
   "namedChunkGroups": {
-    "main": {
-      "name": "main",
+    "polyfill": {
+      "name": "polyfill",
       "chunks": [
-        "main"
+        658,
+        920
       ],
       "assets": [
         {
-          "name": "render-page.js"
+          "name": "webpack-runtime-b36f33500c005cae6768.js"
+        },
+        {
+          "name": "polyfill-a2d25affeded1b147d38.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 2,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "app": {
+      "name": "app",
+      "chunks": [
+        658,
+        774,
+        143
+      ],
+      "assets": [
+        {
+          "name": "webpack-runtime-b36f33500c005cae6768.js"
+        },
+        {
+          "name": "framework-0068a62ee68a6c63e163.js"
+        },
+        {
+          "name": "app-3b5d64503ecce0185adc.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 3,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-404-js": {
+      "name": "component---src-pages-404-js",
+      "chunks": [
+        883
+      ],
+      "assets": [
+        {
+          "name": "component---src-pages-404-js-4790579db421e82c33cd.js"
+        }
+      ],
+      "filteredAssets": 0,
+      "assetsSize": null,
+      "filteredAuxiliaryAssets": 1,
+      "auxiliaryAssetsSize": null,
+      "children": {},
+      "childAssets": {}
+    },
+    "component---src-pages-index-js": {
+      "name": "component---src-pages-index-js",
+      "chunks": [
+        678
+      ],
+      "assets": [
+        {
+          "name": "component---src-pages-index-js-577ac56344f9cfd98a1e.js"
         }
       ],
       "filteredAssets": 0,
@@ -37,9 +115,43 @@
   "generator": "loadable-components",
   "chunks": [
     {
-      "id": "main",
+      "id": 920,
       "files": [
-        "render-page.js"
+        "polyfill-a2d25affeded1b147d38.js"
+      ]
+    },
+    {
+      "id": 143,
+      "files": [
+        "app-3b5d64503ecce0185adc.js"
+      ]
+    },
+    {
+      "id": 658,
+      "files": [
+        "webpack-runtime-b36f33500c005cae6768.js"
+      ]
+    },
+    {
+      "id": 883,
+      "files": [
+        "component---src-pages-404-js-4790579db421e82c33cd.js"
+      ]
+    },
+    {
+      "id": 678,
+      "files": [
+        "component---src-pages-index-js-577ac56344f9cfd98a1e.js"
+      ]
+    },
+    {
+      "id": 393,
+      "files": []
+    },
+    {
+      "id": 774,
+      "files": [
+        "framework-0068a62ee68a6c63e163.js"
       ]
     }
   ]
