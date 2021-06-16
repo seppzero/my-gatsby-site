@@ -1,4 +1,4 @@
-import React, { Suspense } from "react";
+import React from "react";
 import loadable from "@loadable/component";
 // import { Helmet } from "react-helmet";
 
@@ -14,7 +14,7 @@ const pageStyles = {
   fontFamily: "-apple-system, Roboto, sans-serif, serif",
 };
 
-const SearchLazy = React.lazy(() => import("app_three/Search"));
+// const SearchLazy = React.lazy(() => import("app_three/Search"));
 
 // const script = document.createElement("script");
 // script.src = "http://localhost:8003/main.js";
@@ -22,7 +22,7 @@ const SearchLazy = React.lazy(() => import("app_three/Search"));
 // document.body.appendChild(script);
 
 
-const OtherComponent = loadable(() => import('app_three/Search'))
+const OtherComponent = loadable(() => import(/* webpackChunkName: 'app_three' */ 'app_three/Search'), { ssr: false })
 /*
 const Test = () => {
     const [isLoaded, setIsLoaded] = useState(false);

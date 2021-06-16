@@ -1,5 +1,6 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin');
+const LoadablePlugin = require('@loadable/webpack-plugin')
 
 const dependencies = require("./package.json").dependencies;
 
@@ -40,7 +41,7 @@ module.exports = {
         new ModuleFederationPlugin({
             name: 'app_three',
             remoteType: 'var',
-            remotes: {
+            remotes: { 
                 app_three: 'app_three',
             },
             library: { type: 'var', name: 'app_three' },
@@ -52,5 +53,6 @@ module.exports = {
         new HtmlWebpackPlugin({
             template: './public/index.html',
         }),
+        new LoadablePlugin(),
     ],
 };
